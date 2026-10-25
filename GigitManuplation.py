@@ -41,10 +41,36 @@ else :
  print(term)
  term = term*zeros(nt+1) + rem 
  print(term)
+        
+# program for n natural number
+n = int(input())
+total = int((n*(n+1))/2)
+print(total)  
+#print 1/n! by using recursion 
+#factorial by using recursion
+def fact(t):
+    if t == 1 or t==0:
+        return 1
+    return t*fact(t-1)
+n = int(input())
+print(f"1/{fact(n)}")
 
-        
-        
+
+#print x^n/n! by using recursion 
+def fact(t):
+    if t == 1 or t== 0:
+        return 1 
+    return t*fact(t-1)
+def power(x,n):
+   if n == 0:
+       return 1 
+   return x*power(x,n-1)   
+n = int(input())
+x = int(input())
+print(f"{power(x,n)}/{fact(n)}")    
        
+       
+
        
        
    
