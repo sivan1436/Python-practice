@@ -1,0 +1,103 @@
+convert the mins into hours
+//FUNCTION:A FUNCTION  is a block of code with an indetifier,this block of code has a specific task to perform .
+->A function can take values and it can perform operastions on that and it can give this processed output
+-> if we pass value ,it called  argrument, we return the proceesed output with return key word
+// function have 4 categories 
+-> with out argumeents and with out return: in this type of function we will not pass any value and we will collect any value.
+-this kind of functions will work in a fixed manner that means no mater howmany times we excute it will perform same operation every time.
+->no Argument with return: in this type of function we are not passing any argument,but we are expecting output or return type from the function .
+so every time this function will return same value .
+->with arguments no return:this type functions can be use when we have to pass a data and need to processs that data and we are not expecting or we are not goint to use that data in futurer ,in that case no nedd to return the value from the function so in this case we case use with argu and no return type function.
+->with arguments and with return : this type of functions will actually take values to process and it will return the value which can be use in future .
+NOTE:why to use functions?.
+the readablity of program can be improve and if we want repeat the specific task for multiple times ,instead of rewriting the code we directly call the function.
+             DEFINATION
+             ------------------
+             |function:        |                                |
+             |                 |
+             | statemnets      |
+             |                 |
+             |                 |
+             |                 |
+             |                 |
+             |                 |
+             -------------------
+
+FUnction call : it is used to invoke the function
+we use the name of the function and we specify or mention the pranthacis after the function,now this become functioon call
+if my function is taking any values that means arguments then i have to specify the values with in pranthecis.
+-function is a part of code, it will be compiled when ever the code is excuteed ,the function will only be excuted when it is called.
+//in pythone we define a function using def keyword
+  syn: def function_name(): 
+         block of code
+write a function to print the max of given 2 variables           
+nOTE:return is a keyword whicdh is used in functions . whenever return is found the function will stop itsexcution and it will return the value which is specified in after return keyword and it will key the data to the function call.
+-STAR:every program has to be excuted on a stack when we call a function it will invoke the stack and it will load with functions reference.
+the behaviour of the stack is : it has to excute the top element in the top.so the rest of the programe will be on hold and system will excute thgen function 
+once the function excution is completed stack will pop the reference and rest of the code will be excuted 
+Continues:continue is keyword which is used in iterator ,we use this to skip a current iteration and to start the next iteration.
+Break: break is keyweord which is used to terminate all the iterations or to break the loop
+task 1: from a given intigor  or num n=1234
+homework :
+   m = 1234 
+   n = 77 
+   op = 127734 
+   2.
+   m = 12345 
+   n = 77 
+   op = 12775 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
