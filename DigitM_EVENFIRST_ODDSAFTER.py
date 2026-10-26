@@ -42,5 +42,6 @@ def EVENSFIRST_ODDSAFTER(m):
     a += 1 
     y //=10 
  print("OOD counts ",a)    
- print("Final ",E*zeros(a)+ O)    
+ E = E*zeros(a) + O 
+ return E  
     
