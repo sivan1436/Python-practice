@@ -17,6 +17,7 @@ def prime(n):
     for i in range(2,int(n/2) + 1):
         if n % i == 0:
             p = False
+            break
     if p:
         return True
     return False    
@@ -35,4 +36,9 @@ print(check)
         
         
         
+    
+    
+    
+    
+    
     
