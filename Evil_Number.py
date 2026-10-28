@@ -21,5 +21,37 @@ def Evil(n):
         return True 
     else :
         return False
-n = int(input()) 
+def EvilNumberRange(a,b):
+    for i in range(a,b+1):
+        if Evil(i):
+            print(i,end=" ")
+def NearstEvilNumber(n):
+    if Evil(n):
+        print("given n is a Evil number",n)
+    l = n-1
+    r = n+1
+    while not Evil(r):
+        r+=1
+    while not Evil(l):
+        l -=1
+    print("\n Left Magic Evil is :",l)
+    print("\n Right Evil number is :",r)
+    if (r-n) > (n-l):
+        print("\n Nearest Evil number is :",l)
+    else:
+        print("\n Nearest Evil number is :",r)
+def NthEvilNumber(n):
+    i=1
+    count = 0
+    while count < n:
+        if Evil(i):
+            count+=1
+        if count == n:
+            break
+        i += 1
+    print("\n Nth Evil number is :",i)
+n = int(input("enter n"))
 print(Evil(n))
+EvilNumberRange(a = int(input("enter lower bound: ")), b = int(input("enter upper bound: ")))
+NearstEvilNumber(n)
+NthEvilNumber(n=int(input("enter n: "))    )

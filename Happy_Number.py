@@ -13,5 +13,37 @@ def HappyNumber(n):
         return True 
     else :
         return False
-n = int(input()) 
-print(HappyNumber(n)) 
+def HappyNuberRange(a,b):
+    for i in range(a,b+1):
+        if HappyNumber(i):
+            print(i,end=" ")
+def NearstHappyNumber(n):
+    if HappyNumber(n):
+        print("given n is a magic number",n)
+    l = n-1
+    r = n+1
+    while not HappyNumber(r):
+        r+=1
+    while not HappyNumber(l):
+        l -=1
+    print("\n Left happy number is :",l)
+    print("\n Right Happy number is :",r)
+    if (r-n) > (n-l):
+        print("\n Nearest Happy number is :",l)
+    else:
+        print("\n Nearest Happy number is :",r)
+def NthHappyNumber(n):
+    i=1
+    count = 0
+    while count < n:
+        if HappyNumber(i):
+            count+=1
+        if count == n:
+            break
+        i += 1
+    print("\n Nth Happy number is :",i)
+n = int(input("enter n :"))
+print(HappyNumber(n))
+HappyNuberRange(a = int(input("enter lower bound: ")), b = int(input("enter upper bound: ")))
+NearstHappyNumber(n)
+NthHappyNumber(n=int(input("enter n: ")))
